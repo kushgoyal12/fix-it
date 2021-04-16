@@ -9,8 +9,22 @@
     <title>Fix-It</title>
 </head>
 <body>
-    <!-- <img src="car.png" alt="LOGO"> -->
-    <h1>Fix-It</h1>
+
+  <nav id="mainNavbar" class="navbar navbar-expand-md navbar-light">
+    <img src="car.png" alt="LOGO" class="logo">
+    <a href="#" class="navbar-brand" id="z1">Fix-It</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navLinks">
+      <div class="navbar-nav">
+        <a class="nav-link" href="#"> Blog </a>
+        <a class="nav-link" href="#"> More </a>
+        <button class="a5"> <a class="login" href="#">Login/Sign up</a></button>
+      </div>
+    </div>
+  </nav>
+    
     <br>
 
 
@@ -22,41 +36,44 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
+
           <div class="carousel-item active">
-              <div class="rating">
-                  <img src="ic.png" alt="Inverted Commas" class="ic">
-                  <h3 class="rnr">Totally Satisfied</h3>
-                  <p class="prnr">
-                      I just got my car serviced from Fix-It and had a great experience. Thank you, Siddhant, for making the exploration and decision making process easy. My car 
-                      has been serviced across Noida in the past but never from a person and company that pays so much attention to the little things - from the detailing of the car
-                      to well-functioning. 
-                  </p>
-                  <div>
-                    <!-- <img src="fb.png" alt="Facebook"> -->
-                    <div class="a1">
-                      <p>Kush Goyal</p>
-                      <p class="a2">Facebook</p>
-                    </div>
-                  </div>
-              </div>
-          </div>
-          <div class="carousel-item">
             <div class="rating">
                 <img src="ic.png" alt="Inverted Commas" class="ic">
-                <h3 class="rnr">Best Service Till-date</h3>
-                  <p class="prnr">
-                      I live in Noida where it is very difficult to find good service centres for my car. I tried Fix-It once for the car's service and I am really impressed by the 
-                      quality of service. I loved the service.  
-                  </p>
-                  <div>
-                    <!-- <img src="fb.png" alt="Facebook"> -->
-                    <div class="a3">
-                      <p>Abhishek Verma</p>
-                      <p class="a2">Google</p>
-                    </div>
+                <h3 class="rnr">Totally Satisfied</h3>
+                <p class="prnr">
+                    I just got my car serviced from Fix-It and had a great experience. Thank you, Siddhant, for making the exploration and decision making process easy. My car 
+                    has been serviced across Noida in the past but never from a person and company that pays so much attention to the little things - from the detailing of the car
+                    to well-functioning. 
+                </p>
+                <div class="a1">
+                  <img class="a6"  src="fb.png" alt="Facebook">
+                  <div class="b1">
+                    <p class="reviewerName">Kush Goyal</p>
+                    <p class="a2">Facebook</p>
                   </div>
+                </div>
             </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="rating">
+              <img src="ic.png" alt="Inverted Commas" class="ic">
+              <h3 class="rnr">Best Service Till-date</h3>
+                <p class="prnr">
+                    I live in Noida where it is very difficult to find good service centres for my car. I tried Fix-It once for the car's service and I am really impressed by the 
+                    quality of service. I loved the service.  
+                </p>
+                <div class="a3">
+                  <img class="a7" src="google.png" alt="Google">
+                  <div class="b2">
+                    <p class="reviewerName">Abhishek Verma</p>
+                    <p class="a2">Google</p>
+                  </div>
+                </div>
           </div>
+        </div>
+
           <div class="carousel-item">
             <div class="rating">
                 <img src="ic.png" alt="Inverted Commas" class="ic">
@@ -65,10 +82,10 @@
                       Wonderful service by Fix-It workshop in Noida. Authorized dealers just charge us more for the same service. Affordable and top quality car service. Cannot 
                       thank or recommend them enough, fantastic service.  
                   </p>
-                  <div>
-                    <!-- <img src="fb.png" alt="Facebook"> -->
-                    <div class="a4">
-                      <p>Varun Sharma</p>
+                  <div class="a4">
+                    <img class="a8" src="fb.png" alt="Facebook">
+                    <div class="b3">
+                      <p class="reviewerName">Varun Sharma</p>
                       <p class="a2">Facebook</p>
                     </div>
                   </div>
@@ -90,7 +107,7 @@
         <div class="card">
           <div class="card-header" id="headingOne">
             <h2 class="mb-0">
-              <button class="btn btn-light btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button class="btn btn-light btn-block text-left question" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 What sort of car services does Fix-It offers in Noida?
               </button>
             </h2>
@@ -105,7 +122,7 @@
         <div class="card">
           <div class="card-header" id="headingTwo">
             <h2 class="mb-0">
-              <button class="btn btn-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <button class="btn btn-light btn-block text-left collapsed question" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Why should I prefer Fix-It in Noida for resolving my car servicing problems?
               </button>
             </h2>
@@ -119,7 +136,7 @@
         <div class="card">
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
-              <button class="btn btn-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <button class="btn btn-light btn-block text-left collapsed question" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Does the Fix-It in Noida offer a warranty for car services and repairs?
               </button>
             </h2>
@@ -138,7 +155,9 @@
             <div class="row align-items-center pt-4 pb-5 pl-3">
                 <div class="col-lg-3">
                     <div>
-                    <h2>Fix-It</h2>
+                      <img src="car.png" alt="LOGO" class="logo">
+                    <div class="footerTitle">Fix-It</div>
+                    
                     </div>
                     <div id="ads" class="mt-3">
                     <p>
@@ -187,7 +206,7 @@
         </div>
     </footer>
 
-    
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>

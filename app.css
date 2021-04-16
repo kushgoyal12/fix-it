@@ -1,8 +1,16 @@
-
-
 #footer {
     background-color: #282828;
     color: #ffffff;
+}
+
+.login {
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+}
+
+.login:hover {
+    color: #000000;
+    text-decoration: none;
 }
 
 #ads {
@@ -38,7 +46,7 @@
 .rating {
     /* border: solid 1px #000000; */
     padding: 2% 1% 1%;
-    background-color: rgb(119, 119, 119);
+    background-color: #f1faee;
     width: 100%;
     max-width: 500px;
     height: 475px;
@@ -47,7 +55,6 @@
 }
 
 .carousel-indicators {
-   
     margin: auto;
 }
 
@@ -70,10 +77,18 @@
 
 .rnr {
     text-align: center;
+    font-weight: 600;
 }
 
 .prnr {
     margin-top: 7%;
+    line-height: 1.73;
+    font-weight: 400;
+}
+
+.reviewerName {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
 }
 
 .ic {
@@ -86,21 +101,106 @@
     overflow: visible;
 }
 
+.question {
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+
+.card-body {
+    font-size: 1.05rem;
+    font-weight: 400;
+    line-height: 1.53;
+    color: #4a4a4a;
+}
+
 .a1 {
     margin-top: 50px;
-    margin-left: 50px;
 }
 
 .a2 {
     margin-top: -15px;
+    font-weight: 400;
 }
 
 .a3 {
-    margin-top: 120px;
-    margin-left: 50px;
+    margin-top: 140px;
 }
 
 .a4 {
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top: 120px;
+}
+
+.b1 {
+    margin-top: -45px;
+    margin-left: 60px;
+}
+
+.b2 {
+    margin-top: -45px;
+    margin-left: 60px;
+}
+
+.b3 {
+    margin-top: -45px;
+    margin-left: 60px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    /* font-weight: 100; */
+    padding-top: 17px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+.navbar-collapse {
+    font-size: 1.25rem;
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+}
+
+#z1 {
+    margin-left: 7px;
+    font-weight: bold;
+}
+
+.a5 {
+    margin-left: 15px;
+}
+
+.a6 {
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.a7 {
+    /* margin-top: 30px; */
+    width: 40px;
+    height: 40px;
+}
+
+.a8 {
+    /* margin-top: 30px; */
+    width: 40px;
+    height: 40px;
+}
+
+.footerTitle {
+    display: inline-block;
+    font-size: 2rem;
+    /* margin-top: 20px; */
+}
+
+.carousel-indicators li {
+    background-color: #457B9D;
 }
