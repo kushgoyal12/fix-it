@@ -1,0 +1,157 @@
+/* body {
+    background-color: #f0f2f5;
+} */
+
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.mainHeading {
+    /* width: 400px; */
+    /* border: 1px solid black; */
+    display: flex;
+    margin: auto;
+    /* margin-left: 15%;
+    margin-top: 20%; */
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.heading {
+    font-size: 3rem;
+    margin-top: 22px;
+    margin-left: 15px;
+    font-family: 'Nunito', sans-serif;
+    /* text-transform: uppercase; */
+    font-weight: 500;
+    color: #eff9eb;
+    /* display: inline-block; */
+    /* margin-left: 100px;
+    margin-bottom: 20px; */
+}
+
+.form {
+    background-color: white;
+    width: 396px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 24px;
+    /* margin-left: 53%;
+    margin-top: -14%; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.enter {
+    display: flex;
+    justify-content: center;
+    padding: 6px 0;
+}
+
+.enter1 {
+    font-size: 17px;
+    border-radius: 4px;
+    width: 396px;
+    height: 22px;
+    padding: 25px 0;
+    padding-left: 15px;
+    border: 1px solid #dddfe2;
+    transition: border-color 250ms ease-in-out;
+}
+
+.enter1:hover {
+    border-color: #457B9D;
+}
+
+.submitButton {
+    margin-top: 10px;
+    display: flex;
+    justify-self: center;
+}
+
+.submitButton1 {
+    width: 396px;
+    padding: 15px 0;
+    font-size: 20px;
+    background-color: #48AAFF;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    color: #ffffff;
+    transition: background-color 250ms ease-in-out;
+}
+
+.submitButton1:hover, .submitButton1:focus {
+    background-color: #269AFF;
+}
+
+.newAccount {
+    margin-top: 25px;
+    border-top: 1px solid #DADDE1;
+    display: flex;
+    justify-content: center;
+}
+
+.newAccount1 {
+    background-color: #A8DADC;
+    font-size: 15px;
+    width: 200px;
+    padding: 15px 7px;
+    border-radius: 4px;
+    margin-top: 25px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    color: #ffffff;
+    transition: background-color 250ms ease-in-out;
+}
+
+.newAccount1:hover, .newAccount1:focus {
+    background-color: #7FCACC;
+}
+
+.repairCar {
+    width: 320px;
+    height: 480px;
+}
+
+.content {
+    /* margin-top: 140px; */
+    margin-top: 12%;
+}
+
+@media (max-width: 992px) {
+    .repairPhoto {
+        display: none;
+    }
+    .form {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .mainHeading {
+        display: none;
+    }
+}
